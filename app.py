@@ -7,7 +7,7 @@ app = Flask("potassium-meet-teams")
 @api.doc(params={})
 class TestApp(Resource):
 	def get():
-return 'Hello, World!'
+return 'Python is up'
 
 if __name__ == "__main__":
 	app.run(host=HOSTNAME, debug=True)
